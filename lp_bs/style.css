@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    width: 100%;
+}
+#s1, #s2, #s3{
+    margin-top: 5vh;
+}
+.carousel{
+    width: 800px;
+}
+@media (width <=1000px){
+    #s1, #s2, #s3{
+    margin-top: 0;
+}
+    .carousel{
+    width: 100vw;
+}
+}
