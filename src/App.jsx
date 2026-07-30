@@ -19,11 +19,11 @@ function App() {
         <a href="">Produtos</a>
       </nav>
       <main>
-        <section id='s1'>
+        <section id='s1' className={s.s1}>
           <h1>Título de Empresa</h1>
         </section>
 
-        <section id='s2'>
+        <section id='s2' className={s.s2}>
           <div className={s.left}>
             <img width={400} src={banner} alt="" />
           </div>
@@ -33,7 +33,7 @@ function App() {
           </div>
         </section>
 
-        <section id='s3'>
+        <section id='s3'className={s.s3}>
           <div className={s.card}>
             <img width={400} src={card01} alt="" />
             <div className={s.cardText}>
